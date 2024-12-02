@@ -46,14 +46,20 @@ body {
     border-radius: 6px;
     font-size: 16px;
 }
-
+.b2{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
 .options {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom:1px;
 }
 
 .options a {
