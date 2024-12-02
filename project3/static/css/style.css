@@ -1,0 +1,242 @@
+
+body{
+    background-color:black;
+    height: 2000px;
+    margin: 0%;
+    width: 100%;
+    
+ }
+ .parent{
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+ 
+ }
+ .nav{
+ width: 100%;
+    background-color: rgba(27, 26, 26, 0.475);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 20px;
+ }
+ .image{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+ }
+ .phone1{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+ }
+ button{
+    height: 20px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: white;
+ }
+ .phone2{
+    text-align: center;
+    
+ 
+ 
+ }
+ .image2{
+    justify-content: center;
+    align-items: center;
+    
+ 
+ }
+ .image3{
+    margin: 0%;
+ }
+ .text{
+    color: white;
+    text-align: center;
+ font-family:Arial, Helvetica, sans-serif;
+ }
+ .image4{
+    justify-content: center;
+ 
+ }
+ .blue{
+    background-color: rgb(2, 110, 232);
+    height: 800px;
+ 
+ }
+ h1{
+    height:0px;
+    font-size: 50px;
+    
+ }
+ .image4{
+    position: relative;
+    bottom: 240px;
+    
+ }
+ .image5{
+    position: relative;
+    bottom: 450px;
+ }
+ .text1{
+ 
+    position: relative;
+    bottom: 400px;
+ }
+ .watch{
+    background-color: white;
+    position: relative;
+    bottom: 400px;
+    height: 700px;
+    color: black;
+ 
+ }
+ h3{
+    position: relative;
+    bottom: 40px;
+ }
+ .image6{
+    background-size: cover;
+    position: static;
+    left: 40px;
+    top: 30px;
+ }
+ .watch2{
+    position: relative;
+    bottom:400px ;
+ }
+ .image7{
+    height:200px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+ 
+    
+ }
+ .image8{
+    height: 1000px;
+    background-image:url("airpods_4__bmm7k3ocqng2_large_2x.jpeg");
+    background-size: cover;
+     
+ }
+ .head{
+    background-color: white;
+    height: 1150px;
+ }
+ .image9{
+    position: relative;
+    top: 50px;
+ 
+ }
+ .text2{
+    color: #000000;
+    position: relative;
+    top: 50px;
+ }
+ .text3{
+    color: rgb(111, 97, 97);
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+ }
+ hr{
+    width: 70%;
+            border: none;
+            height: 1px; 
+            background-color:rgb(111,97,97);
+            align-items: center;
+ }
+ .end{
+    height: 500px;
+    background-color: white;
+ }
+ table{
+    border-collapse: collapse;
+    color: rgb(12, 12, 12);
+    
+    justify-content: space-between;
+    position: static;
+    
+    
+ }
+ .air{
+    color: white;
+    position: relative;
+    top: 700px;
+ }
+ .child1{
+    width: 50px;
+    height: 40px;
+   
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10px;
+ }
+ .child11{
+    position: relative;
+    top: 2px;
+    right: 20px;
+    
+ }
+ .child12{
+    position: relative;
+    right: 50px;
+ }
+ .l1{
+    color: #686464;
+    position: relative;
+    right: 450px;
+ 
+ }
+ .l2{
+    color: #686464;
+    position: relative;
+    bottom: 258px;
+    right: 250px;
+ }
+ .l3{
+    color: #686464;
+    position: relative;
+    bottom: 480px;
+    right:100px ;
+ }
+ .l4{
+    color: #686464;
+    position: relative;
+    bottom: 680px;
+    left: 80px;
+    
+ }
+ .l5{
+    color: #686464;
+    position: relative;
+    bottom: 883px;
+    left: 300px;
+ }
+ .l6{
+    color: #686464;
+    position: relative;
+    bottom: 860px;
+    right: 200px;
+ }
+ .l7{
+    position: relative;
+    bottom: 860px;
+ }
+ .l8{
+    position: relative;
+    bottom: 880px;
+    color: #686464;
+ }
+ .foot{
+    height: 379px;
+ }
