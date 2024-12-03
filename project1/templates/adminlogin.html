@@ -6,13 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="../adminlogin" method="POST">
-        {% csrf_token %}
-        <input type="text" name="username" placeholder="username" id="">
-        <input type="password" name="password" placeholder="password" id="">
-        <button type="submit">login</button>
-        
-    </form>
-    
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Login</h2>
+           <form action="../admlogin" method="POST">
+           {% csrf_token %}
+                <input type="email" placeholder="Email or Username" name="username"
+                required><br>
+                <input type="password"placeholder="Password" name="password" required class="b2"><br>
+                <div class="options">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don’t have an account? <a href="#">Sign up</a></p>
+        </div>
+        <div class="info-section">
+            <div class="content">
+                <h3>Check Your Project Progress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor lorem, accumsan et arcu quis.</p>
+                <div class="graphic">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

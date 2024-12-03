@@ -13,11 +13,12 @@ def index(request):
 def index2(request):
     return render(request,'index2.html')
 
-adminusername="admin123"
-adminpassword="admin.123"
+adminusername="adm123"
+adminpassword="123"
 def adminlogin(request):
     if request.method=='POST':
         username=request.POST['username']
+        print(username)
         password=request.POST['password']
         if  username==adminusername and password==adminpassword:
             print("logged in")
