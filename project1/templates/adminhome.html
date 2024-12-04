@@ -1,11 +1,33 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Home</title>
+    <link rel="stylesheet" href="{% static 'css\admhome.css' %}">
 </head>
 <body>
-    admin login
+    {% csrf_token %}
+    <div class="navbar">
+        <div class="logo">Admin</div>
+        <div class="nav-links">
+            
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Welcome, Admin!</h1>
+        <p>This is the admin homepage where you can manage users, view reports, adjust settings, and monitor system activity.</p>
+        {{users}}
+    </div>
 </body>
 </html>
+
+
+

@@ -4,6 +4,7 @@ urlpatterns=[
     path('index',views.index),
     path('admlogin',views.adminlogin),
     path('adminhome',views.adminhome),
+    # path('register',views.register),
 
 
 

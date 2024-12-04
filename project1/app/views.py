@@ -4,14 +4,14 @@ from django.http import HttpResponse
 users=[]
 def index(request):
     if request.method=='POST':
-        username=request.POSt['username']
-        password=request.POSt['password']
+        username=request.POST['username']
+        password=request.POST['password']
         users.append({'username':username,'password':password})
-        return redirect(index2)
+        print(users)
     return render(request,'index.html')
 
-def index2(request):
-    return render(request,'index2.html')
+def admlogin(request):
+    return render(request,'adminhome.html')
 
 adminusername="adm123"
 adminpassword="123"
@@ -26,4 +26,4 @@ def adminlogin(request):
     return render(request,'adminlogin.html')
 
 def adminhome(request):
-    return render(request,'adminhome.html')
+    return render(request,'adminhome.html',{'users':users})
