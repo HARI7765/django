@@ -27,3 +27,6 @@ def adminlogin(request):
 
 def adminhome(request):
     return render(request,'adminhome.html',{'users':users})
+
+def register(request):
+    return render(request, 'register.html' )
