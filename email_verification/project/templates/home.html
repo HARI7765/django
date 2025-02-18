@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+    {% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>Welcome{% if user.is_authenticated %} {{ user.username }}{% endif %}!</h1>
+    
+    {% if user.is_authenticated %}
+        {% if user.profile.email_verified %}
+            <p class="success">Your email has been verified!</p>
+        {% else %}
+            <p class="warning">Please verify your email address. Check your inbox for the verification link.</p>
+        {% endif %}
+    {% else %}
+        <p>Please <a href="{% url 'signup' %}">sign up</a> to get started.</p>
+    {% endif %}
+</div>
+{% endblock %}
+</body>
+</html>
